@@ -1,14 +1,20 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
 .nav {
     display: flex;
     justify-content: space-between;
-    background-color: #333;
-    padding: 1.5rem 1.5rem 1rem 1.5rem;
+    align-items: center;
+    background-color: #317773;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     font-size: 1.4rem;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .logo a, .links a {
-    color: #fff;
+    color: #0d0b0b;
     text-decoration: none;
 }
 .links {
@@ -16,16 +22,39 @@
     gap: 2.3rem;
 }
 .logo a:hover, .links a:hover {
-    color: #ddd;
+    color: #191414;
 }
 
 #home{
-    background-color: black;
+    background-color:white;
     height: 100vh;
+    border: 1px solid black;
+    
 }
 #about{
-    background-color: rgb(187, 24, 24);
+    background-color: white;
     height: 100vh;
+}
+.h{
+    width:100%;
+    overflow:auto;
+    
+    
+}
+.i{
+   align-items: center;
+   height:100rem;
+    
+}
+
+.i img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13rem;
+ 
+  object-fit: cover;
+    
 }
 
 
