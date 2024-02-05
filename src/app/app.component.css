@@ -17,7 +17,7 @@
 .logo a:hover, .links a:hover {
     color: #ddd;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 48rem) {
     .nav a {
       float: none;
       display: block;
