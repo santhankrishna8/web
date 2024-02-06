@@ -153,8 +153,23 @@ input[type="radio"]
   background-color: #cde4fb;
   height: 100vh;
 }
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin:4rem 0 0 10rem;
+  padding: auto;
+  align-items: center;
+}
+
+.container img{
+  flex-basis:25%;
+  max-width: 15%;
+  height: 200px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
 
 
+}
 
 
 
@@ -201,5 +216,10 @@ input[type="radio"]
       margin-left: -2.5rem;
       width:70%
       
+    }
+    .img-holder {
+      box-sizing: border-box;
+      width: 25%;
+      padding: 2%;
     }
   }
