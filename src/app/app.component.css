@@ -148,9 +148,9 @@ input[type="radio"]
   content:'-';
 }
 
-#skills{
-  border-top: 10px solid #cde4fb;
-  background-color: #cde4fb;
+.skills{
+  margin-top: -4rem;;
+  background-color: #e3edf7;
   height: 100vh;
 }
 
@@ -181,6 +181,7 @@ input[type="radio"]
   align-items: center;
   aspect-ratio: 3/2;
   object-fit: contain;
+  mix-blend-mode: multiply;
 
 }
 .skill-title h3{
