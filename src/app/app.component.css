@@ -30,7 +30,7 @@
 #home{
     background-color:#e3edf7;
     height: 90vh;
-    
+   
     
 }
 .h{
@@ -92,6 +92,7 @@ ul{
     margin-top: -3rem;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
+    border-top: 10px solid #cde4fb;
 }
 .accordion{
   margin:3.75rem auto;
@@ -146,6 +147,33 @@ input[type="radio"]
 .accordion input[type="radio"]:checked +label::before{
   content:'-';
 }
+
+#skills{
+  border-top: 10px solid #cde4fb;
+  background-color: #cde4fb;
+  height: 100vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
