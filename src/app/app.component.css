@@ -186,6 +186,9 @@ input[type="radio"]
      font-size: small;
      margin-right: -10px;
     }
+    .name{
+      display:none;
+    }
     #about{
       float:left;
       font-size: small;
