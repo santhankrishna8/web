@@ -217,9 +217,7 @@ input[type="radio"]
       width:70%
       
     }
-    .img-holder {
+    .container{
       box-sizing: border-box;
-      width: 25%;
-      padding: 2%;
     }
   }
