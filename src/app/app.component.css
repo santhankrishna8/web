@@ -218,6 +218,6 @@ input[type="radio"]
       
     }
     .container{
-      box-sizing: border-box;
+      float: left;
     }
   }
