@@ -27,7 +27,7 @@
 }
 
 #home{
-    background-color:white;
+    background-color:#e3edf7;
     height: 100vh;
     
     
@@ -88,7 +88,7 @@ ul{
 }
 #about{
     background-color: #e3edf7;
-    border:1px solid black;
+    
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
