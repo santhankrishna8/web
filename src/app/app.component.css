@@ -219,5 +219,15 @@ input[type="radio"]
     }
     .container{
       float: left;
+
+    }
+    .container img{
+      flex-basis:25%;
+      max-width: 15%;
+      height: 200px;
+      aspect-ratio: 3/2;
+      object-fit: contain;
+
+
     }
   }
