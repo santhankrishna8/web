@@ -159,9 +159,10 @@ input[type="radio"]
     #about{
       float:left;
       font-size: small;
-      width:70%;
+      width:100%;
     }
     .accordion li{
+      float: left;
       width:70%
     }
   }
