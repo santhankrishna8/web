@@ -88,7 +88,6 @@ ul{
 }
 #about{
     background-color: #e3edf7;
-    
     border:1px solid black;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
@@ -96,13 +95,16 @@ ul{
 .accordion{
   margin:3.75rem auto;
   width:37.5rem;
-
+  display: flex;
+  flex-direction: column;
 }
 .accordion li{
   list-style-type: none;
+  
+  
   width: 100%;
-  margin:1.3rem;
-  padding:0.8rem;
+  margin:1.3rem 1.3rem 1.3rem 0.5rem;
+  padding:0.9rem;
   border-radius: 0.5rem;
   background-color: #e3edf7;
   box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
@@ -110,7 +112,7 @@ ul{
 
 }
 .accordion li label{
-  display: flex;
+  
   align-items: center;
   padding:10px;
   font-size: 18px;
@@ -153,5 +155,10 @@ input[type="radio"]
       
      float:left;
      font-size: small;
+    }
+    #about{
+      float:left;
+      font-size: small;
+
     }
   }
