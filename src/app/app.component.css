@@ -219,6 +219,7 @@ input[type="radio"]
     }
     .container{
       float: left;
+      align-items: center;
 
     }
     .container img{
