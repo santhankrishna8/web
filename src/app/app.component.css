@@ -163,6 +163,8 @@ input[type="radio"]
     }
     .accordion li{
       float: left;
+      margin-left: -1rem;
       width:70%
+      
     }
   }
