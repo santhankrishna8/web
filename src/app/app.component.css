@@ -151,7 +151,7 @@ input[type="radio"]
 
 
 
-@media screen and (max-width: 40rem) {
+@media screen and (max-width: 36rem) {
     .nav a {
       
      float:left;
