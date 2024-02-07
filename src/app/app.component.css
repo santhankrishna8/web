@@ -330,7 +330,9 @@ footer{
      float:left;
      font-size: small;
      margin-right: -10px;
+    
     }
+    
     .name{
       display:none;
       overflow:hidden;
