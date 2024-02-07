@@ -368,7 +368,7 @@ footer{
       .policies{
         margin-top: 2rem;
       }
-      .social{
+      .social ul{
         display: flex;
         flex-direction: column;
       }
