@@ -365,6 +365,9 @@ footer{
       .portfolio{
         display: none;
       }
+      .menu ul{
+        margin-left: -3rem;
+      }
       .policies{
         margin-top: 2rem;
       }
