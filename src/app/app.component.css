@@ -325,7 +325,9 @@ footer hr{
     .contact-inputs{
       width:80vw;
     }
-    .contact-right{
+    .contact-container{
+      display: flex;
+      flex-direction: column;
       
     }
   }
