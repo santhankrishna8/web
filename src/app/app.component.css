@@ -362,5 +362,8 @@ footer{
         font-size: 10px;
 
       }
+      .portfolio{
+        display: none;
+      }
     
   }
