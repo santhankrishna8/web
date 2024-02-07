@@ -357,4 +357,10 @@ footer{
       flex-direction: column;
       
     }
+    
+      footer{
+        font-size: small;
+
+      }
+    
   }
