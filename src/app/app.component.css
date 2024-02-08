@@ -366,9 +366,16 @@ footer{
     }
    
     #projects img{
-      width:15%;
-      height:25%;
-     
+      width:70%;
+      height:30%;
+      aspect-ratio: 3/2;
+      object-fit: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+      
     }
 
 
