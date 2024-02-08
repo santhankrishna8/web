@@ -365,7 +365,11 @@ footer{
       grid-template-columns: repeat(3,1fr);
     }
    
-
+    #projects img{
+      width:15%;
+      height:25%;
+     
+    }
 
 
 
