@@ -369,11 +369,12 @@ footer{
       
      float:left;
      font-size:medium;
-     margin-right: -8px;
+     margin-right: -10px;
     
     }
-    .links a{
-      margin-left: 5px;
+    .links {
+       display: flex;
+       margin-right: 1.2rem;
     }
     
     .name{
