@@ -241,6 +241,13 @@ input[type="radio"]
   height:50%;
  
 }
+#projects .pr{
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.2rem;
+
+
+}
 
 
 
@@ -396,18 +403,28 @@ footer{
     .skill-box{
       grid-template-columns: repeat(3,1fr);
     }
-   
+   #projects{
+    height: 60vh;
+   }
     #projects img{
       width:70%;
-      height:30%;
+      height:45%;
       aspect-ratio: 3/2;
       object-fit: cover;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      margin: auto;
       
       
+    }
+    #projects .pr{
+      font-family: monospace;
+      text-align: center;
+      font-size: 1.2rem;
+
+
     }
 
 
