@@ -379,6 +379,12 @@ footer{
      margin-right: -10px;
     
     }
+    #home .b a{
+      margin-left: 5px;
+    }
+    #home .b a,#home .b span{
+      margin-right: 2px;
+    }
     .links {
        display: flex;
        margin-right: 1.2rem;
