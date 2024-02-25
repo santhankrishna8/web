@@ -172,7 +172,9 @@ input[type="radio"]
 .accordion input[type="radio"]:checked +label::before{
   content:'-';
 }
-
+#sk{
+  height:100%;
+}
 
 
 
@@ -432,6 +434,10 @@ footer{
       font-size: 1.2rem;
 
 
+    }
+    #sk{
+      height:100vh;
+      margin-bottom: 60rem;
     }
 
 
